@@ -20,5 +20,5 @@
 /devices/*/xhci-hcd.0.auto*              auto               auto   defaults                                         voldmanaged=usb:auto
 
 # ZRAM
-/dev/block/zram0                         none               swap   defaults                                         zramsize=2147483648,zram_loopback_path=/data/per_boot/zram_swap,zram_loopback_size=512M
+/dev/block/zram0                         none               swap   defaults                                         zramsize=2147483648,zram_backingdev_size=512M
 /dev/block/zram0                         none               swap   defaults                                         zramsize=25%
