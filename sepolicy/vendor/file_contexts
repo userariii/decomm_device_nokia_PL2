@@ -7,6 +7,12 @@
 /firmware(/.*)?          u:object_r:firmware_file:s0
 /persist(/.*)?           u:object_r:mnt_vendor_file:s0
 
+# Dolby - data
+/data/vendor/dolby(/.*)?                                                u:object_r:vendor_data_file:s0
+
+# Dolby
+/(vendor|system/vendor)/bin/hw/vendor\.dolby\.hardware\.dms@2\.0-service                                u:object_r:hal_dms_default_exec:s0
+
 # Fingerprint
 /dev/elan_fp                               u:object_r:sysfs_fingerprint:s0
 /dev/goodix_fp				   u:object_r:sysfs_fingerprint:s0
