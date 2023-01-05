@@ -106,6 +106,7 @@ PRODUCT_PACKAGES += \
     libaudio-resampler \
     libqcompostprocbundle \
     libqcomvisualizer \
+    libspatialaudio \
     libqcomvoiceprocessing \
     libvolumelistener
 
@@ -395,6 +396,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(COMMON_PATH) \
     hardware/samsung
+    
+# Spatial audio
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.audio.spatializer_enabled=true
 
 # Telephony-ext
 PRODUCT_PACKAGES += \
