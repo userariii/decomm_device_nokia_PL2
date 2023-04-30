@@ -96,9 +96,9 @@ PRODUCT_PACKAGES += \
 
 # Audio
 PRODUCT_PACKAGES += \
-    android.hardware.audio@4.0-impl \
+    android.hardware.audio@7.1-impl \
     android.hardware.audio.service \
-    android.hardware.audio.effect@4.0-impl \
+    android.hardware.audio.effect@7.0-impl \
     android.hardware.soundtrigger@2.1-impl \
     audio.r_submix.default \
     audio.usb.default \
