@@ -164,6 +164,9 @@ sys.vendor.shutdown.waittime=500
 # OEM Unlock
 ro.oem_unlock_supported=1
 
+# Netflix
+ro.netflix.bsp_rev=Q660-13149-1
+
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
 

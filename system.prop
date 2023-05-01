@@ -102,7 +102,6 @@ media.stagefright.thumbnail.prefer_hw_codecs=true
 mm.enable.smoothstreaming=true
 mmp.enable.3g2=true
 persist.mm.enable.prefetch=true
-ro.netflix.bsp_rev=Q660-13149-1
 vendor.mm.enable.qcom_parser=13623022
 vendor.vidc.dec.enable.downscalar=0
 vendor.vidc.enc.disable_bframes=1
