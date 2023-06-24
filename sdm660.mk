@@ -471,7 +471,14 @@ PRODUCT_PACKAGES += \
     hostapd \
     WifiOverlay \
     wpa_supplicant \
-    wpa_supplicant.conf
+    wpa_supplicant.conf \
+    libwfdaac_vendor \
+    wificond \
+    libwpa_client \
+    libwifi-hal-qcom \
+    libqsap_sdk \
+    hostapd_cli \
+    libnl
 
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/wifi/wifi_concurrency_cfg.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wifi_concurrency_cfg.txt \
