@@ -5,3 +5,7 @@ android.frameworks.sensorservice::ISensorManager                                
 
 # Dolby
 vendor.dolby.hardware.dms::IDms                                                          u:object_r:hal_dms_hwservice:s0
+
+# NFC
+vendor.nxp.nxpnfc::INxpNfc                                                                  u:object_r:hal_nxpnfc_hwservice:s0
+vendor.nxp.nxpese::INxpEse  

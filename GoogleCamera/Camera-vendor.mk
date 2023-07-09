@@ -1,6 +1,6 @@
 
 PRODUCT_SOONG_NAMESPACES += \
-    device/nokia/sdm660-common/GoogleCamera
+    device/nokia/PL2/GoogleCamera
 
 
 PRODUCT_PACKAGES += \

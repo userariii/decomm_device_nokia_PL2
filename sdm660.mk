@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-COMMON_PATH := device/nokia/sdm660-common
+COMMON_PATH := device/nokia/PL2
 
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)

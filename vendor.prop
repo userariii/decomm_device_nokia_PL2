@@ -5,6 +5,7 @@ audio.offload.min.duration.secs=30
 audio.offload.video=true
 audio.sys.noisy.broadcast.delay=600
 audio.sys.offload.pstimeout.secs=3
+persist.audio.fluence.voicecomm=true
 persist.bluetooth.a2dp_offload.cap=sbc-aac-aptx-aptxhd-ldac
 persist.bluetooth.a2dp_offload.disabled=true
 persist.vendor.audio.fluence.speaker=true
@@ -82,6 +83,7 @@ vendor.audio_hal.period_size=192
 vendor.voice.path.for.pcm.voip=true
 
 # Bluetooth
+bluetooth.device.default_name=Nokia 6.1
 bluetooth.device.class_of_device=90,2,12
 bluetooth.hardware.power.operating_voltage_mv=3300
 bluetooth.profile.a2dp.source.enabled?=true
@@ -113,6 +115,8 @@ ro.vendor.bluetooth.wipower=false
 vendor.qcom.bluetooth.soc=cherokee
 
 # Camera
+persist.camera.ffcolor=true
+persist.capture.burst.exposures=0,-9,9
 camera.aux.packagelist=net.sourceforge.opencamera,org.codeaurora.snapcam,com.fihtdc.fqc
 camera.disable_zsl_mode=1
 camera.panorama.quality=middle
@@ -130,6 +134,7 @@ ro.charger.enable_suspend=true
 dalvik.vm.dex2oat64.enabled=true
 
 # Display
+qemu.sf.lcd_density=440
 debug.renderengine.backend=skiaglthreaded
 vendor.display.disable_scaler=1
 renderthread.skia.reduceopstasksplitting=true
@@ -149,6 +154,8 @@ ro.vendor.product.manufacturer.db=OP_PHONE
 vendor.product.device=OP_PHONE
 vendor.product.manufacturer=OPD
 
+# Fingerprint
+ro.hardware.fingerprint=elan
 # FM
 vendor.hw.fm.init=0
 
@@ -181,6 +188,7 @@ ro.vendor.extension_library=libqti-perfd-client.so
 vendor.power.pasr.enabled=true
 
 # Radio
+ro.rf.power.reduction.for.mcc=1
 keyguard.no_require_sim=true
 persist.vendor.radio.apm_sim_not_pwdn=1
 persist.vendor.radio.custom_ecc=1
